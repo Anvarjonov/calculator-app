@@ -1,0 +1,57 @@
+.body, html{
+    overflow-x: hidden;
+}
+.Nav_bar{
+    background-color: rgb(107, 64, 7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+    padding: 0 22px;   
+}
+.Nav_bar ul li{
+    padding: 5px ;
+    
+    
+}
+     
+.Nav_bar ul li:hover{
+    background-color: #FFC107;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.Nav_bar ul li:first-child{
+   background-color: #FFC107;
+   border-radius: 12px;
+   padding: 5px 10px;
+}
+    
+
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+.logo:hover{
+    background-color: #FFC107;
+    color: black;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+@media (max-width: 768px){
+   .logo{
+       position: absolute;
+       top: 10px;
+       left: 20px;
+   }
+   .Nav_bar ul{
+       flex-direction: column;
+       width: 100%;
+       height: 25vh;
+       justify-content: center;
+      
+   }
+   
+}

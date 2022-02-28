@@ -1,0 +1,21 @@
+.wrapper_sign_up {
+    height: 100vh;
+    background-image: url('../../food\ image/img13.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;  
+    
+}
+.card_sign{
+    margin-top: 35px;
+    background-color: rgb(133, 82, 16) !important;
+}
+.mybtn{
+    border-radius: 10px;
+    background-color: rgb(219, 194, 111);
+}
+.mybtn:hover{
+    background-color: yellow !important;
+    color: black !important;
+}

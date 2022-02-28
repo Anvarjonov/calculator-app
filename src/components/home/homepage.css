@@ -1,0 +1,84 @@
+.home_page_for{
+    background-image: url('../../food\ image/img14.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coffee{
+    color: rgb(245, 223, 24);
+}
+
+
+.CoffeTypes{
+    font-size: 30px;
+}
+.title-h{
+    
+    height: 50px;
+    overflow: hidden;
+    padding: 15px;
+    width: 43%;
+    
+    
+}
+.title-wrapper{
+
+   height: 100%;
+   animation: move 10s ease-in-out infinite alternate-reverse;
+   color: white;
+}
+@keyframes move {
+    20%{
+        transform: translateY(-55px);
+    }
+    40%{
+        transform: translateY(-110px);
+    }
+    60%{
+        transform: translateY(-160px);
+    }
+    80%{
+        transform: translateY(-205px);
+    }
+    100%{
+        transform: translateY(-240px);
+    }
+    
+    
+}
+
+@media (max-width: 768px){
+    @keyframes move {
+        20%{
+            transform: translateY(-50px);
+        }
+        40%{
+            transform: translateY(-85px);
+        }
+        60%{
+            transform: translateY(-110px);
+        }
+        80%{
+            transform: translateY(-145px);
+        }
+        100%{
+            transform: translateY(-180px);
+        }
+        
+        
+    }
+    .title-h{
+        margin:4px 0;
+        height: 30px;
+        overflow: hidden;
+        padding: 5px;
+        width: 100%;
+        
+    }
+    .CoffeTypes{
+        font-size: 20px;
+    }
+
+}
