@@ -19,7 +19,3 @@
     background-color: yellow !important;
     color: black !important;
 }
-html{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
